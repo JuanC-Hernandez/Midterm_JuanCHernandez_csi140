@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed:wght@300&display=swap');
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Condensed', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+header{
+    background-color: #6185a7;
+    text-align: center;
+    padding: .75rem;
+}
+footer{
+    background-color: #6185a7;
+    position: fixed;
+    text-align: center;
+    padding: .25rem;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 300;
+}
+header img{
+    float: left;
+    height: 1.5rem;
+}
+.title-container{
+    position: relative;
+    color: #ffffff;
+    background-color: #7395b6;
+    height: 20rem;
+}
+.title-container img{
+    position: absolute;
+    right: 25%;
+    max-height: 100%;
+}
+.title-text{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.country-facts{
+    color: #000000;
+    padding: .35rem;
+    background-color: #ffffff;
+    position: absolute;
+    right: 32%;
+    top: 93%;
+    box-shadow: 4px 4px;
+    border-radius: 10px;
+}
+.content-container img{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;    
+}
+#img1{
+    right: 40%;
+    top: 55%;
+    border-radius: 20px;
+}
+#img2{
+    right: 56%;
+    top: 55%;
+    border-radius: 20px;
+}
+#img3{
+    right: 24%;
+    top: 55%;
+    border-radius: 20px;
+}
+h1{
+    font-size: 4rem;
+    text-shadow: 4px 4px #000000;
+    font-family: 'Permanent Marker', cursive;
+}
+h2{
+    font-size: 1rem;
+}
+h3{
+    font-size: 1rem;
+}
+.content-container .image-hover:hover{
+    box-shadow: 0 0 25px 25px #375674;
+    position: absolute;
+    z-index: 1;
+ }
+ .content-container .image-hover2:hover{
+    box-shadow: 0 0 25px 25px #375674;
+    position: absolute;
+    z-index: 1;
+ }
+#paragraph1{
+    color: #ffffff;
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    left: 30%;
+    top: 56%;
+    z-index: 2;
+    pointer-events: none;
+}
+#paragraph2{
+    color: #ffffff;
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    left: 46%;
+    top: 56%;
+    z-index: 2;
+    pointer-events: none;
+}
+#paragraph3{
+    color: #ffffff;
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    left: 62%;
+    top: 56%;
+    z-index: 2;
+    pointer-events: none;
+}
+mark{
+    background-color: #000000b4;
+    color: #ffffff;
+}
+.in-conclusion{
+    position: absolute;
+    top: 95%;
+    left: 47%;
+}
+#tech-list{
+    position: absolute;
+    top: 99%;
+    left: 29%;
+    width: 45rem;
+    list-style: none;
+}
